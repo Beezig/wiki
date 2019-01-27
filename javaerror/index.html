@@ -36,7 +36,7 @@
     
     
       
-        <title>Installation - Beezig Wiki</title>
+        <title>Fixing the Issue with WR for Deathrun & Briefing - Beezig Wiki</title>
       
     
     
@@ -80,7 +80,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#labymod" tabindex="1" class="md-skip">
+      <a href="#fixing-the-issue-with-wr-for-deathrun-briefing" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -106,7 +106,7 @@
                 Beezig Wiki
               </span>
               <span class="md-header-nav__topic">
-                Installation
+                Fixing the Issue with WR for Deathrun & Briefing
               </span>
             
           
@@ -187,52 +187,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Installation
-      </label>
-    
-    <a href="./" title="Installation" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../installation/" title="Installation" class="md-nav__link">
       Installation
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#labymod" title="LabyMod" class="md-nav__link">
-    LabyMod
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#5zig" title="5zig" class="md-nav__link">
-    5zig
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
     
@@ -274,29 +233,8 @@
 <nav class="md-nav md-nav--secondary">
   
   
+    
   
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#labymod" title="LabyMod" class="md-nav__link">
-    LabyMod
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#5zig" title="5zig" class="md-nav__link">
-    5zig
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
   
 </nav>
                   </div>
@@ -309,24 +247,32 @@
               
                 
                 
-                  <h1>Installation</h1>
-                
-                <p>First, to install Beezig, download it from our official sources. Beezig is available for the two big info/gui mods: <a href="https://www.labymod.net/">LabyMod</a> &amp; <a href="https://5zig.net/">5zig</a>.
-Select your parent-mod below.</p>
+                <h1 id="fixing-the-issue-with-wr-for-deathrun-briefing">Fixing the Issue with WR for Deathrun &amp; Briefing<a class="headerlink" href="#fixing-the-issue-with-wr-for-deathrun-briefing" title="Permanent link">&para;</a></h1>
+<p>Your Minecraft client likely will not connect to the <em>speedrun.com/API &amp; Lergin</em> servers to retrieve the data.</p>
+<p>Minecraft comes with a own Java version, just in case you don't have one installed. This is <code>1.8.0 Version 23</code>.
+The problem is, Minecraft is not trusting the aforementioned servers. Only Java programs with a higher version than <code>1.8.0 Version 101</code> trust the <em>speedrun.com / Lergin</em> servers.</p>
 <hr />
-<h4 id="labymod">LabyMod<a class="headerlink" href="#labymod" title="Permanent link">&para;</a></h4>
-<ul>
-<li>Simply download from the official ingame marketplace! :)</li>
-<li>Just search for <code>"Beezig - The Hive Support"</code></li>
-<li>Restart your game.</li>
-</ul>
+<p>Important for this is that you have such a Java version installed on your computer.
+One option is to run <code>java -version</code> in a command prompt.
+Or you can check on the <em>Apps &amp; Features</em> page in Windows.
+If you have a sufficient Java version try to find its JRE executable in your Explorer.
+If not, update Java.
+By default, these are located at <code>C:\Program Files\Java\jre1.8.0_VERSION\bin\javaw.exe</code>
+or <code>C:\Program Files (x86)\Java\jre1.8.0_VERSION\bin\javaw.exe</code></p>
+<p>If nothing helps, you can also ask me at <em>ItsNiklass#3108</em> or <em>@ItsNiklass</em></p>
+<p><strong>Note: If you're using the old launcher or a custom one like MultiMC, you don't need to proceed any further. Just make sure your Java is up-to-date.</strong></p>
 <hr />
-<h4 id="5zig">5zig<a class="headerlink" href="#5zig" title="Permanent link">&para;</a></h4>
-<ul>
-<li>Download the installer from <a href="https://l.roccodev.pw/beeziginstaller">here</a>.</li>
-<li>The installer will guide you through the installation process.</li>
-<li>Restart your game.</li>
-</ul>
+<p>To tell Minecraft to go and use your updated Java version, we have to go into the launcher:
+<em>(Images below)</em></p>
+<p><strong>1 - Go into your Launch options.</strong></p>
+<p><strong>2 - Select your active profile you are using Beezig with.</strong></p>
+<p><strong>3 - Turn on the custom Java executable.</strong></p>
+<p><strong>4 - Select your own javaw.exe in your new Java directory and click Save</strong></p>
+<p><strong>5 - WR should now work. Contact me if issues still exists :)</strong></p>
+<hr />
+<p><img alt="" src="https://i.imgur.com/iJt60YT.png" /></p>
+<p><img alt="" src="https://i.imgur.com/7I2g6x2.png" /></p>
+<p><img alt="" src="https://i.imgur.com/HSWEPsm.png" /></p>
                 
                   
                 
@@ -343,41 +289,6 @@ Select your parent-mod below.</p>
       
         
 <footer class="md-footer">
-  
-    <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid">
-        
-          <a href=".." title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
-            </div>
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Previous
-                </span>
-                Home
-              </span>
-            </div>
-          </a>
-        
-        
-          <a href="../settings/" title="Settings" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                Settings
-              </span>
-            </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
-          </a>
-        
-      </nav>
-    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
