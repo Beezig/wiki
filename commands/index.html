@@ -47,7 +47,7 @@
       
         
         
-        <meta name="theme-color" content="#009688">
+        <meta name="theme-color" content="#00bcd4">
       
     
     
@@ -68,7 +68,7 @@
   
     
     
-    <body dir="ltr" data-md-color-primary="teal" data-md-color-accent="cyan">
+    <body dir="ltr" data-md-color-primary="cyan" data-md-color-accent="light-blue">
   
     <svg class="md-svg">
       <defs>
@@ -511,6 +511,18 @@
   </li>
 
     
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../modules/" title="Modules" class="md-nav__link">
+      Modules
+    </a>
+  </li>
+
+    
   </ul>
 </nav>
                   </div>
@@ -934,8 +946,8 @@ The <code>commands</code> argument will instead print all loaded commands.</p>
 <li>Alias: <code>/customtest, /ctest</code></li>
 </ul>
 <details class="example"><summary>Example</summary><p>Example: <code>/customtest add Please go into the tester, {p}!</code></p>
-<hr />
 </details>
+<hr />
 <h3 id="daily">Daily<a class="headerlink" href="#daily" title="Permanent link">&para;</a></h3>
 <p>Print information on daily points. <strong>More info on Daily Points on the <a href="">features page</a>!</strong></p>
 <ul>
@@ -995,13 +1007,14 @@ Just running <code>/msg [player]</code> will toggle the private message mode to 
 </ul>
 <hr />
 <h3 id="monthly">Monthly<a class="headerlink" href="#monthly" title="Permanent link">&para;</a></h3>
-<div class="admonition danger">
-<p class="admonition-title">TODO new</p>
-</div>
+<p>Returns what player is on <code>position</code> on the monthly leaderboards of <code>game</code>. Additional stats like points and calculations are also shown. If no <code>mode</code> is specified, the current game will be used.</p>
 <p><strong>More info on Monthly on the <a href="">features page</a>!</strong></p>
 <ul>
-<li>Syntax: <code>/monthly [player] (mode)</code></li>
+<li>Syntax: <code>/monthly [position] (mode)</code></li>
 </ul>
+<div class="admonition info">
+<p class="admonition-title">Use /records (Advanced Records) to find out a players rank.</p>
+</div>
 <hr />
 <h3 id="notes-timv">Notes <small><code>TIMV</code></small><a class="headerlink" href="#notes-timv" title="Permanent link">&para;</a></h3>
 <p>Prints out all notes saved in the current TIMV game via <a href="#addnote-timv"><code>/note</code></a></p>
@@ -1184,6 +1197,20 @@ If <code>mode</code> is not specified, the current mode will be used.</p>
             </div>
           </a>
         
+        
+          <a href="../modules/" title="Modules" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Modules
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
         
       </nav>
     </div>
